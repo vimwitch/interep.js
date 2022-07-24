@@ -9,48 +9,6 @@ export default {
     ],
     reputationLevels: [
         {
-            name: "gold",
-            rules: [
-                {
-                    parameter: "followers",
-                    value: {
-                        ">": 7000
-                    }
-                },
-                {
-                    parameter: "botometerOverallScore",
-                    value: {
-                        "<": 1
-                    }
-                },
-                {
-                    parameter: "verifiedProfile",
-                    value: true
-                }
-            ]
-        },
-        {
-            name: "silver",
-            rules: [
-                {
-                    parameter: "followers",
-                    value: {
-                        ">": 2000
-                    }
-                },
-                {
-                    parameter: "botometerOverallScore",
-                    value: {
-                        "<": 1.5
-                    }
-                },
-                {
-                    parameter: "verifiedProfile",
-                    value: null
-                }
-            ]
-        },
-        {
             name: "bronze",
             rules: [
                 {

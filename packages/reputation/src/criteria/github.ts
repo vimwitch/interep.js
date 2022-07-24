@@ -13,14 +13,12 @@ export default {
             rules: [
                 {
                     parameter: "followers",
-                    value: {
-                        ">": 500
-                    }
+                    value: null
                 },
                 {
                     parameter: "receivedStars",
                     value: {
-                        ">": 200
+                        ">": 10
                     }
                 },
                 {
@@ -35,14 +33,12 @@ export default {
                 {
                     parameter: "followers",
                     value: {
-                        ">": 100
+                        ">": 10
                     }
                 },
                 {
                     parameter: "receivedStars",
-                    value: {
-                        ">": 80
-                    }
+                    value: null
                 },
                 {
                     parameter: "proPlan",
@@ -55,21 +51,17 @@ export default {
             rules: [
                 {
                     parameter: "followers",
-                    value: {
-                        ">": 50
-                    }
+                    value: null
                 },
                 {
                     parameter: "receivedStars",
-                    value: {
-                        ">": 40
-                    }
+                    value: null
                 },
                 {
                     parameter: "proPlan",
                     value: true
                 }
             ]
-        }
+        },
     ]
 } as ReputationCriteria
