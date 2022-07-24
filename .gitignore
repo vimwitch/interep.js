@@ -40,6 +40,7 @@ node_modules/
 
 # Generate output
 dist
+!packages/reputation/dist
 docs
 gh-pages/*
 !gh-pages/CNAME
